@@ -88,6 +88,7 @@
 /* kết thức section 1 */
 
 /* section 2 */
+/* layout */
 .second_container {
     width: 1376px;
     height: 1608px;
@@ -102,7 +103,7 @@
     padding: 4px 0px;
 
 }
-
+/* image */
 .second_content_img1,
 .second_content_img2 {
     width: 50%;
@@ -123,4 +124,26 @@
 .second_content_img2 {
     background-color: #F4F0EA;
     padding: 294px 48px 49px 48px;
+}
+/* info */
+.second_content_info {
+    width: 587px;
+    height: 458px;
+}
+
+.second_title {
+    font-size: 64px;
+    line-height: 74px;
+    margin-bottom: 24px;
+}
+
+.second_heading {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 8px;
+}
+
+.text_info {
+    margin-bottom: 24px;
+    width: 100%;
 }
