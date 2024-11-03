@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 1440px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+}
+/* secction1 */
+.first_container {
+    width: 1440px;
+    height: 962px;
+        padding: 0 auto;
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+}
+/* title */
+.box_title {
+    width: 1215px;
+    height: 54px;
+}
+
+.first_title {
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+}
+/* box img section 1 */
+.container_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_img1,
+.box_img2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 35px auto;
+    padding: 0 16px;
+}
+.content_img1,
+.content_img2 {
+    width: 379px;
+    height: 617.89px;
+    border-radius: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.content_img1 {
+    background-image: url('/img/Mask.png');
+}
+.content_img2 {
+    background-image: url('/img/image.png');
+}
