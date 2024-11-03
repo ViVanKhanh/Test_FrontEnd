@@ -125,6 +125,9 @@
     background-color: #F4F0EA;
     padding: 294px 48px 49px 48px;
 }
+.img2{
+background-image: url('./img/img4.png');
+}
 /* info */
 .second_content_info {
     width: 587px;
