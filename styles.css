@@ -84,3 +84,43 @@
     color: #2C2A29;
 
 }
+
+/* kết thức section 1 */
+
+/* section 2 */
+.second_container {
+    width: 1376px;
+    height: 1608px;
+    margin: 0 auto;
+}
+
+.second_box_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 800px;
+    padding: 4px 0px;
+
+}
+
+.second_content_img1,
+.second_content_img2 {
+    width: 50%;
+    border-radius: 24px;
+    height: 100%;
+    margin: 0 4px;
+}
+
+.second_content_img1 {
+    background-image: url('./img/img3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+}
+
+.second_content_img2 {
+    background-color: #F4F0EA;
+    padding: 294px 48px 49px 48px;
+}
